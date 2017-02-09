@@ -1,262 +1,245 @@
-
 <!DOCTYPE html>
 <html>
 
-  <head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Evan Knight - Evan Knight - Interaction Designer at Google</title>
-  <meta name="description" content="Evan Knight is an Interaction Designer at Google in Boulder, CO.">
-  <link rel="stylesheet" href="https://evanwknight.com/css/main.css">
-  <link rel="canonical" href="https://evanwknight.com/">
-  <link rel="alternate" type="application/rss+xml" title="Evan Knight" href="https://evanwknight.com/feed.xml" />
-  <link rel="shortcut icon" type="image/x-icon" href="https://evanwknight.com/images/favicon.ico">
-  <link href='//fonts.googleapis.com/css?family=Source+Sans+Pro:400|Merriweather:400,300,700,300italic,400italic' rel='stylesheet' type='text/css'>
-</head>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Abider - Xiangzhou Ye</title>
+		<meta name="description" content="Abider Github Page">
+		<link rel="stylesheet" href="assets/css/abider.css">
+		<link rel="shortcut icon" type="image/x-icon" href="https://evanwknight.com/images/favicon.ico">
+	</head>
 
+	<body>
+		<header class="site-header">
+			<div class="container tab-container">
+				<div class="row">
+					<div class="col-sm-22 col-sm-offset-1">
+						<p class="u-left">
+							<a class="site-title" href="/">Abider</a>
+						</p>
+						<div class="desktop-menu">
+							<h6 class="menu-item">
+								<a href="#contact">联系方式</a>
+							</h6>
+							<h6 class="menu-item">
+								<a href="#about-me">关于我</a>
+							</h6>
+							<h6 class="menu-item">
+								<a href="#university">谈谈大学</a>
+							</h6>
+							<h6 class="menu-item">
+                                <a href="#project-one">项目</a>
+                            </h6>
+						</div>
+						<p class="menu-item mobile-menu-btn">Menu</p>
+						<div class="mobile-menu-dropdown">
+							<p class="mobile-menu-item">
+								<a href="#contact">Contact</a>
+							</p>
+							<p class="mobile-menu-item">
+								<a href="#work">Portfolio</a>
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
 
-  <body>
+		<section class="intro">
+			<div class="container pad-row-lg">
+				<div class="row">
+					<div class="col-sm-12 col-sm-offset-6">
+						<h2 class="center">我叫叶祥洲</h2>
+						<p class="center">目前希望在广州或者深圳寻找一份关于 PHP 的工作</p>
+						<p class="center">
+							2017 年的 6 月份正式毕业，就读于 <a href="http://www.gzhsvc.com/" class="underline" target="_blank">广州华商职业学院</a>。
+							于 2015年 与 PHP 结缘，在 2016 年年中被 <a href="https://laravel.com/" class="underline" target="_blank">Laravel</a> 框架所吸引，踏入 PHP 开发的行业中，至今一发不可收拾。
+						</p>
+					</div>
+				</div>
+				<div class="center">
+					<a class="small round button" href="#work">View My Work</a>
+				</div>
+			</div>
+		</section>
 
-  <header class="site-header">
+		<section id="project-one">
+			<div class="container pad-row-top-lg">
+				<div class="row">
+					<div class="col-sm-22 col-sm-offset-1">
+						<div class="row">
+							<div class="col-sm-12">
+								<h2>谈谈第一个 PHP 项目 - LeShare。</h2>
+								<p>项目开始于 16 年 9 月，起源于对于 “分享” 动作的思考；</p>
+								<p>选择了以 App 的形式开发，原因是考虑到目前的格局更加偏向移动互联网，同时也可以学习前后端分离的具体实现；</p>
+								<p>中间踩了不少坑，包括 API 的格式返回，App 端的处理，无状态登陆的实现等等；</p>
+								<p>App 端使用的是 <a href="http://dev.dcloud.net.cn/mui/" class="underline" target="_blank">Mui</a>，在体验上虽不及原生但也很流畅；</p>
+								<a class="small round button" href="https://github.com/abider/LeShare">Github</a>
+							</div>
+							<div class="col-sm-12">
+								<img src="http://oh6t02bhk.bkt.clouddn.com/2.png" alt="">
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
 
-  <div class="container tab-container">
-    <div class="row">
-      <div class="col-sm-22 col-sm-offset-1">
-        <p class="u-left"><a class="site-title" href="/">Evan Knight</a></p>
-        <div class="desktop-menu">
-          <h6 class="menu-item">
-            <a href="#contact">Contact</a>
-          </h6>
-          <h6 class="menu-item">
+		<section id="project-two">
+			<div class="container pad-row-top-lg text-right">
+				<div class="row">
+					<div class="col-sm-22 col-sm-offset-1">
+						<div class="row">
+							<div class="col-sm-12">
+								<img src="http://oh6t02bhk.bkt.clouddn.com/project-two-1.png" alt="">
+							</div>
+							<div class="col-sm-12">
+								<h2 class="text-right">Livether - 直播聚合</h2>
+								<p>项目开始于 17 年 1 月，主要原因是方便能看直播</p>
+								<p>原理是通过爬虫抓包获取一些直播平台的数据</p>
+								<p>将数据经过处理以及格式化之后存入数据库</p>
+								<p>在一些按钮上使用了 Vue.js，在方便开发的同时加强用户体验</p>
+								<p>建立用户体系方便收藏关注等操作</p>
+								<a class="small round button" href="https://github.com/abider/livether">Github</a>
+								<a class="small round button" href="https://livether.abcode.cc/">Demo</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
 
-            <a href="#work">Portfolio</a>
+		<section id="project-three">
+			<div class="container pad-row-top-lg">
+				<div class="row">
+					<div class="col-sm-22 col-sm-offset-1">
+						<div class="row">
+							<div class="col-sm-12">
+								<h2>模仿知乎问答社区 - zhihu-sample</h2>
+								<p><a href="https://www.laravist.com/" class="underline">Laravist</a> 的 <a href="https://www.laravist.com/series/build-a-zhihu-website-with-laravel" class="underline">Laravel实战：开发知乎</a> 相关教程项目</p>
+								<p>期间学习到了很多新的小技巧</p>
+								<p>使用了 Vue.js 进行辅助开发，提升开发效率</p>
+								<p>目前实现了知乎一些主要功能</p>
+								<p>自己单独完成了用户展示页面（个人中心）</p>
+								<a class="small round button" href="https://github.com/abider/zhihu-sample">Github</a>
+								<a class="small round button" href="https://zhihu.abcode.cc/">Demo</a>
+							</div>
+							<div class="col-sm-12">
+								<img src="http://oh6t02bhk.bkt.clouddn.com/project-three-1.png" alt="">
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
 
-          </h6>
-        </div>
-        <p class="menu-item mobile-menu-btn">Menu</p>
-        <div class="mobile-menu-dropdown">
-          <p class="mobile-menu-item">
-            <a href="#contact">Contact</a>
-          </p>
-          <p class="mobile-menu-item">
-            <a href="http://evanwknight.com/#work">Portfolio</a>
-          </p>
-        </div>
-      </div>
-    </div>
-  </div>
-</header>
+		<section id="university">
+			<div class="container pad-row-lg center">
+				<div class="row">
+					<div class="col-sm-22 col-sm-offset-1">
+						<h2>谈谈我在大学的那些事儿</h2>
+						<p>就读于 <a href="http://www.gzhsvc.com/" class="underline" target="_blank">广州华商职业学院</a>，专科院校，17 年 6 月份毕业；</p>
+						<p>在校成绩良好，绩点 3.85，班级排名 3 / 41，专业排名 14 / 231；</p>
+						<p>获得过国家励志奖学金、校奖学金、优秀学生干部、全勤奖等等。</p>
+					</div>
+				</div>
+			</div>
+		</section>
 
-        <section class="intro">
-    <div class="container pad-row-lg">
-        <div class="row">
-            <div class="col-sm-12 col-sm-offset-6">
-                <h2 class="center">I Design Experiences</h2>
-                <p class="center">I'm an Interaction Designer at Google in Boulder.</p>
-                <p class="center">Previously, I founded <a class="underline" href="http://yodel.co" target="_blank">Yodel</a>, and designed at: GrubHub, Samsung, FightMetric (UFC), Thinkplay, and the Cornell Interaction Design Lab.</p>
-            </div>
-        </div>
-        <div class="center">
-            <a class="small round button" href="#work">View My Work</a>
-        </div>
-    </div>
-</section>
-<section id="about">
-    <div class="container pad-row-lg">
-        <div class="row">
-            <div class="col-sm-12 col-sm-offset-6">
-                <h2>About My Work</h2>
-                <video id="about-video" class="img-responsive" preload="auto" poster="images/about-default.png">
-                <source src="images/about-work.mp4" type="video/mp4">
-                </video>
-                <p class="center">I design web and mobile apps (UI/UX). I focused on HCI Design at Cornell. I use Sketch, Principle, Framer, and the Browser. I care about scalable CSS.</p>
-                <p class="center"></p>
-            </div>
-        </div>
-    </div>
-</section>
-<div class="bottom-section">
-    <div class="arrow-down"></div>
-</div>
-<section id="work">
-    <div class="container">
-        <div class="row pad-row-lg">
-            <h2>Portfolio</h2>
-            <p class="center">A collection of projects I have designed.</p>
-        </div>
-    </div>
-    <div class="container">
-<!--         <div class="row" id="google">
-            <div class="col-sm-24">
-                <div class="card large pad-row-lg">
-                    <div class="row card-content">
-                        <div class="col-sm-9 col-sm-offset-1">
-                            <img class="brand-logo" src="images/google/google-logo.png">
-                            <h6 class="job-title">Interaction Designer</h6>
-                            <p>I recently joined Google in Boulder, CO. I'm working on the Google Drive team.</p>
-                        </div>
-                        <div class="col-sm-12 col-sm-offset-1">
-                            <a href="/yodel"><img class="img-responsive" src="images/yodel/yodel-2.0-teaser.jpg"></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>   -->
-        <div class="row" id="yodel">
-            <div class="col-sm-24">
-                <div class="card large pad-row-lg">
-                    <div class="row card-content">
-                        <div class="col-sm-9 col-sm-offset-1">
-                            <img class="brand-logo" src="https://evanwknight.com/images/yodel/yodel-logo-home.png">
-                            <h6 class="job-title">Founder, Chief Design Officer</h6>
-                            <p>Yodel began as a side project. After securing <a class="underline" href="https://www.crunchbase.com/organization/tracks-3#/entity" target="_blank">funding</a> we went
-                            full-time. We launched <a class="underline" href="https://www.producthunt.com/tech/yodel" target="_blank">Yodel-Videochat Messaging</a> in 2015, and after a pivot we
-                            released our second app <a class="underline" href="http://yodel.co" target="_blank">Yodel-Group Stories</a>. I've been responsible for product direction, UX & visual
-                            design, user research, and branding.</p>
-                            <div class="pad-row-md">
-                                <a class="small round button" href="/yodel">View Yodel Details</a>
-                            </div>
-                        </div>
-                        <div class="col-sm-12 col-sm-offset-1">
-                            <a href="/yodel"><img class="img-responsive" src="https://evanwknight.com/images/yodel/yodel-2.0-teaser.jpg"></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="row" id="grubhub">
-            <div class="col-sm-24">
-                <div class="card large pad-row-lg">
-                    <div class="row card-content">
-                        <div class="col-sm-9 col-sm-offset-1">
-                            <img class="brand-logo" src="https://evanwknight.com/images/grubhub/grubhub-logo.png">
-                            <h6 class="job-title">Product Designer</h6>
-                            <p>I was a front-end/product designer at <a class="underline" href="http://grubhub.com" target="_blank">GrubHub</a> in the Chicago HQ. I led design for the GrubHub
-                            Driver's app. I also worked on the global sass repo for all company related css, and crafted on new designs for the main GrubHub/Seamless web app.</p>
-                            <div class="pad-row-md">
-                                <a class="small round button" href="/grubhub">View GrubHub Details</a>
-                            </div>
-                        </div>
-                        <div class="col-sm-12 col-sm-offset-1">
-                            <a href="/grubhub"><img class="img-responsive" src="https://evanwknight.com/images/grubhub/grubhub.jpg"></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="row" id="sndchk">
-            <div class="col-sm-24">
-                <div class="card large pad-row-lg">
-                    <div class="row card-content">
-                        <div class="col-sm-9 col-sm-offset-1">
-                            <img class="brand-logo" src="https://evanwknight.com/images/sndchk/sndchk-logo.png">
-                            <h6 class="job-title">Founder/Designer</h6>
-                            <p><a class="underline" href="http://sndchk.com" target="_blank">sndchk</a> (Soundcheck) is Rotten Tomatoes for Concert Reviews. This is an early stage startup that I
-                            helped design and develop (html/css/js/rails).</p>
-                            <div class="pad-row-md">
-                                <a class="small round button" href="/sndchk">View sndchk Details</a>
-                            </div>
-                        </div>
-                        <div class="col-sm-12 col-sm-offset-1">
-                            <a href="/sndchk"><img class="img-responsive" src="https://evanwknight.com/images/sndchk/sndchk-featured.jpg"></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="row" id="thinkplay">
-            <div class="col-sm-24">
-                <div class="card large pad-row-lg">
-                    <div class="row card-content">
-                        <div class="col-sm-9 col-sm-offset-1">
-                            <img class="brand-logo" src="https://evanwknight.com/images/thinkplay/thinkplay.png">
-                            <h6 class="job-title">Head of Design</h6>
-                            <p><a class="underline" href="https://angel.co/thinkplay" target="_blank">thinkplay</a> is audio software and a platform for building and sharing digital ePedals. Founded by a
-                            group of Cornell students, I joined as the head of design and led visual design, user-testing, and interface design.</p>
-                            <div class="pad-row-md">
-                                <a class="small round button" href="/thinkplay">View Thinkplay Details</a>
-                            </div>
-                        </div>
-                        <div class="col-sm-12 col-sm-offset-1">
-                            <a href="/thinkplay"><img class="img-responsive" src="https://evanwknight.com/images/thinkplay/thinkplay-featured.jpg"></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="row" id="samsung">
-            <div class="col-sm-24">
-                <div class="card large pad-row-lg">
-                    <div class="row card-content">
-                        <div class="col-sm-9 col-sm-offset-1">
-                            <img class="brand-logo" src="https://evanwknight.com/images/samsung/samsung.png">
-                            <h6 class="job-title">Design Intern</h6>
-                            <p>I was a UI/UX design intern in the <a class="underline" href="http://www.sra.samsung.com/" target="_blank">Samsung UXCA</a> Mobile Lab in San Francisco. Our goal
-                            was to create mobile UI prototypes that pushed thinking for the future. I worked on interaction ideas for the Samsung mobile OS.</p>
-                            <div class="pad-row-md">
-                                <a class="small round button" href="/samsung">View Samsung Details</a>
-                            </div>
-                        </div>
-                        <div class="col-sm-12 col-sm-offset-1">
-                            <a href="/samsung"><img class="img-responsive" src="https://evanwknight.com/images/samsung/samsung-featured.jpg"></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="row" id="other-projects">
-            <div class="col-sm-24">
-                <div class="card large pad-row-lg">
-                    <div class="row card-content">
-                        <div class="col-sm-9 col-sm-offset-1">
-                            <h1>Other Projects</h1>
-                            <h6 class="job-title">Web, Mobile, and Motion Design</h6>
-                            <p>Since 2010 I've been creating web and mobile apps. I've worked on 50+ freelance projects, including work for Cornell University, UFC, West Point, Vspread, Faded Paper
-                            Figures.</p>
-                            <p>Sometimes I do small side projects like <a class="underline" href="http://wahlo.com" target="_blank">wahlo.com</a> to experiment with things.</p>
-                            <div class="pad-row-md">
-                                <a class="small round button" href="http://dribbble.com/evanknight" target="_blank">View More on Dribbble</a>
-                            </div>
-                        </div>
-                        <div class="col-sm-12 col-sm-offset-1">
-                            <a href="http://dribbble.com/evanknight" target="_blank"><img class="img-responsive" src="https://evanwknight.com/images/other-projects/featured.jpg"></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
+		<section id="about-working">
+			<div class="container  pad-row-lg">
+				<div class="row">
+					<div class="col-sm-22 col-sm-offset-1">
+						<div class="row">
+							<div class="col-sm-12">
+								<h3>飞young学子俱乐部</h4>
+								<p class="job-title">社团是一个好的开始</p>
+								<p>
+									从 15 年 10 月份加入，到 16 年 10 月份结束，期间学到了很多东西，
+									加入的部门相对特殊，是负责整个华商校区的校园网维护工作，
+									主要的工作内容就是每周二和周四晚上到指定的宿舍楼进行网络维修，
+									一开始懂点这方面的知识，发现自己学的根本不够用，回头恶补了与工作内容相关的技术，
+									但更多的是跟前辈学习然后积累经验，同时也结交了三两好友。
+								</p>
+							</div>
+							<div class="col-sm-12">
+								<h3>维护学院网站</h4>
+								<p class="job-title">行动也是学习方式之一</p>
+								<p>
+									于 16 年 9 月份接受了学院老师的邀请，对学院其中的几个网站进行维护和页面改版；
+									负责对 <a href="http://pjb.gzhsvc.com/" class="underline">评建办网站</a> 以及 <a href="http://kys.gzhsvc.com/" class="underline">科研所网站</a> 进行样式统一，与官网尽可能在风格上保持一致；
+									为金融系建立起 <a href="http://jrx.gzhsvc.com/" class="underline">系部网站</a> （当时金融系刚刚成立），根据老师需求建立 <a href="http://ly.gzhsvc.com/" class="underline">旅游专业验收网站</a>；
+									使用 ASP 进行开发，大部分工作内容处于编写前端样式方面；相关网站都已上线。
+								</p>
+								<p>
+									<a class="small round button" href="http://pjb.gzhsvc.com/" target="_blank">评建办</a>
+									<a class="small round button" href="http://kys.gzhsvc.com/" target="_blank">科研所</a>
+									<a class="small round button" href="http://jrx.gzhsvc.com/" target="_blank">金融系</a>
+									<a class="small round button" href="http://ly.gzhsvc.com/" target="_blank">旅游专业验收</a>
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
 
-    <footer class="footer" id="contact">
-	<div class="pad-row-lg">
-		<h2>Contact Me</h2>
-		<p class="center">Email: <a href="mailto:eknight15@gmail.com" class="underline">eknight15@gmail.com</a></p>
-		<p class="center">Follow me on <a href="https://dribbble.com/evanknight" target="_blank" class="underline">Dribbble</a>, or <a href="https://twitter.com/evannite" target="_blank" class="underline">@EvanNite</a>.</p>
-		<p class="center">Other places: <a href="https://www.linkedin.com/in/evanknight15" target="_blank" class="underline">LinkedIn</a>, <a href="http://medium.com/@evanknight" class="underline" target="_blank">Medium</a>, <a href="https://angel.co/evan-knight" target="_blank" class="underline">AngelList</a>.</p>
-	</div>
-</footer>
+		<section id="about-me">
+			<div class="container pad-row-lg center">
+				<div class="row">
+					<div class="col-sm-22 col-sm-offset-1">
+						<h2>最后再谈谈我自己的学习方式</h2>
+						<p>学无止尽，我想这是目前对自己最好的认知。</p>
+						<p>
+							从接触计算机开始，我就不停地去摸索新事物：高中那会自己学会了装系统，是 XP，然后是 Win7，
+							开始在论坛贴吧爬帖，学会了U盘装系统，还了解到 PE 系统， 以及 Ghost 和原生的区别，
+							接着 Win8 出来了，这时没有一键激活了，去论坛爬帖子爬激活码，激活码难抢就根据教程学了电话激活，用的是 skype 加上 VPN，
+							Win8 不尽人意，换回了 Win7，又想着 Win8 的酷炫，就学了双系统怎么装，而后等等像是一张网一样，看不到尽头。
+							新的技术总是层出不穷，有新的需求就会有新的东西出现。
+						</p>
+						<p>
+							在学习 PHP 开发的时候也是这样：写原生，代码不好看，了解并使用模板分离，发现用不惯，或者说没能掌握诀窍，
+							一段时间过后一次偶然的机会了解到框架的存在，开始摸索，
+							百度后总结 ThinkPHP 适合入门，国内主流，国外主流是 Laravel，开始学 ThinkPHP 3.2，第一次体验到 MVC，但在扩展方面显得不尽人意；
+							而后开始入门 Laravel，在网上找的视频教程跟着做，很多地方不懂但还是硬着头皮去动手了，发现比 ThinkPHP 要难用一些，
+							用了 Composer 包管理器，在扩展方面很好；开始接触 Laravel 社区 Laravel-china，爬技术贴，之后到现在，几乎一发不可收拾；
+							了解到开发环境的选择 Homestead、Github、PhpStorm 等 Ide 和编辑器的选择、很多 Laravel 的使用技巧等等，
+							让我认识到了 Laravel 的世界。
+						</p>
+						<p>
+							不断去摸索，才会体会到学无止尽；保持热情追求新技术，我的学习方式之一。
+						</p>
+					</div>
+				</div>
+			</div>
+		</section>
 
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+		<section>
+			<div class="container pad-row-lg center">
+				<div class="row">
+					<div class="col-sm-22 col-sm-offset-1">
+						<p>Abider，寓意不忘初心。</p>
+						<p>相信用心，一定会有所收获。</p>
+					</div>
+				</div>
+			</div>
+		</section>
 
-<script type="text/javascript" src="https://evanwknight.com/assets/js/main-home.js"></script>
+		<footer class="footer" id="contact">
+			<div class="pad-row-lg center">
+				<h2>我叫叶祥洲，感谢您的浏览。</h2>
+				<p>Email: <a href="mailto:admin@abider.me" class="underline">admin@abider.me</a></p>
+				<p>Tel: <a href="javascript:;" class="underline">13710203151</a></p>
+				<p>Github: <a href="https://github.com/abider" class="underline">https://github.com/abider</a></p>
+				<p>Blog: <a href="https://www.abider.me" class="underline">https://www.abider.me</a></p>
+			</div>
+		</footer>
 
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+		<script src="assets/js/abider.js" charset="utf-8"></script>
 
-<script type="text/javascript" src="https://evanwknight.com/assets/js/main.js"></script>
-
-<script type="text/javascript">
-$(document).ready(function() {
-console.log("Hey there! If you are looking at this you are probably cool and you should get in touch. My email is eknight15@gmail.com. Enjoy your element inspecting! I used Jekyll, Gulp, and hosted on GitLab.");
-});
-</script>
-<!-- start Mixpanel --><script type="text/javascript">(function(e,a){if(!a.__SV){var b=window;try{var c,l,i,j=b.location,g=j.hash;c=function(a,b){return(l=a.match(RegExp(b+"=([^&]*)")))?l[1]:null};g&&c(g,"state")&&(i=JSON.parse(decodeURIComponent(c(g,"state"))),"mpeditor"===i.action&&(b.sessionStorage.setItem("_mpcehash",g),history.replaceState(i.desiredHash||"",e.title,j.pathname+j.search)))}catch(m){}var k,h;window.mixpanel=a;a._i=[];a.init=function(b,c,f){function e(b,a){var c=a.split(".");2==c.length&&(b=b[c[0]],a=c[1]);b[a]=function(){b.push([a].concat(Array.prototype.slice.call(arguments,
-0)))}}var d=a;"undefined"!==typeof f?d=a[f]=[]:f="mixpanel";d.people=d.people||[];d.toString=function(b){var a="mixpanel";"mixpanel"!==f&&(a+="."+f);b||(a+=" (stub)");return a};d.people.toString=function(){return d.toString(1)+".people (stub)"};k="disable time_event track track_pageview track_links track_forms register register_once alias unregister identify name_tag set_config reset people.set people.set_once people.increment people.append people.union people.track_charge people.clear_charges people.delete_user".split(" ");
-for(h=0;h<k.length;h++)e(d,k[h]);a._i.push([b,c,f])};a.__SV=1.2;b=e.createElement("script");b.type="text/javascript";b.async=!0;b.src="undefined"!==typeof MIXPANEL_CUSTOM_LIB_URL?MIXPANEL_CUSTOM_LIB_URL:"file:"===e.location.protocol&&"//cdn.mxpnl.com/libs/mixpanel-2-latest.min.js".match(/^\/\//)?"https://cdn.mxpnl.com/libs/mixpanel-2-latest.min.js":"//cdn.mxpnl.com/libs/mixpanel-2-latest.min.js";c=e.getElementsByTagName("script")[0];c.parentNode.insertBefore(b,c)}})(document,window.mixpanel||[]);
-mixpanel.init("aa684f2d5193c98d03c1e5d0c1623348");</script><!-- end Mixpanel -->
-
-
-
-  </body>
+	</body>
 
 </html>
